@@ -1,7 +1,3 @@
-// potencia com arrow function
-// const potencia = (base) => {
-//   return function(exp) {
-//     return Math.pow(base, exp)
-//   }
-// }
-// console.log(potencia(2)(8))
+const nums = [1, 2, 3, 4, 5]
+// const dobro = n => n * 2
+// console.log(nums.map(dobro))
