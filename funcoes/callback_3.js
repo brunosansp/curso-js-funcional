@@ -30,3 +30,7 @@ const carrinho = [
 
 const getNome = item => item.nome
 console.log(carrinho.map(getNome))
+
+const getTotal = item => item.qtde * item.preco
+const totais = carrinho.map(getTotal)
+console.log(totais)
